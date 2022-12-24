@@ -1,0 +1,29 @@
+{
+  "name": "make-a-license",
+  "version": "0.1.0",
+  "description": "Tiny tool to create a license automagically.",
+  "main": "bundle.js",
+  "type": "module",
+  "bin": {
+    "mal": "./bundle.js"
+  },
+  "scripts": {
+    "build": "tsc && rollup --config && rimraf build"
+  },
+  "keywords": [],
+  "author": "micziz",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.17",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.8.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0"
+  }
+}

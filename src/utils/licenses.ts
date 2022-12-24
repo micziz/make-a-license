@@ -1,0 +1,1 @@
+export const licenses = ['Mit','Gpl-3','Mpl-2', 'Apache-2', 'Agpl-3']
